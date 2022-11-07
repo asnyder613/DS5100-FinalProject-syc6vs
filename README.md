@@ -8,7 +8,15 @@ Project name: Monte Carlo Simulator
 
 **Synopsis**
 Show simple demo code of how the classes are used, i.e.
-installing
+
+Installation:
+From the root of this package, run pip install ..
+It is necessary to run the following package installation in order to run this module:
+    import pandas as pd
+    import numpy as np
+    import random
+    import itertools 
+
 importing
 Creating dice objects
 Playing games
