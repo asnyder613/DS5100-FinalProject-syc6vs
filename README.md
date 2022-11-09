@@ -9,7 +9,7 @@ Project name: Monte Carlo Simulator
 The first step is to import the module. From the root of this package, run pip install .
 Then, following the instructions in the __init__.py file, run the following list of import statements to be prepared to use the module.
 
-#Run the following import lines to be ready to use the module:
+Run the following import lines to be ready to use the module:
     import pandas as pd
     import numpy as np
     import random
