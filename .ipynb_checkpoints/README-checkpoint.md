@@ -252,7 +252,13 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "**API description**"
+    "**API description**\n",
+    "A list of all classes with their public methods and attributes.\n",
+    "For each method:\n",
+    "Show the docstring\n",
+    "List and describe all parameters (with data types and defaults)\n",
+    "List and describe return values, if any\n",
+    "Do not describe private methods and attributes"
    ]
   },
   {
