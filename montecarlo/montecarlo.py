@@ -189,7 +189,7 @@ class Analyzer():
         return self.facecounts
 
     def jackpot(self):
-        #find number of colums (faces rolled) in game
+        #find number of columns (faces rolled) in game
         self.jackpot = self.game.showResult('wide')
         self.list_of_rows = self.jackpot.to_numpy().tolist()
         
