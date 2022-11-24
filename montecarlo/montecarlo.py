@@ -56,7 +56,8 @@ class Die():
                 self.newWeight = float(self.newWeight)
             
         #change weight in die array
-        self.myDie.loc[self.myDie['Face'].eq(str(self.changeFace)), 'Weight'] = self.newWeight
+        #self.myDie.loc[self.myDie['Face'].eq(str(self.changeFace)), 'Weight'] = self.newWeight  #not working with int faces
+        self.myDie.loc[(self.myDie['Face']==self.changeFace), 'Weight'] = self.newWeight
 
     def roll(self, roll_num=1):
         self.roll_num = int(roll_num)
